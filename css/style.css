@@ -1,0 +1,71 @@
+body{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+
+	text-align: center;
+	font-size: 200%;
+	font-family: sans-serif;
+}
+
+
+.left, .right{
+	width: 50%;
+	height: 1080px;
+	margin: 0px;
+	padding: 0px;
+	transition: 800ms all ease;
+	opacity: 1;
+}
+
+.left{
+	background-color: darkred;
+	float: left;
+}
+
+.right{
+	background-color: darkblue;
+	float: right;
+}
+
+#h1Left, #h1Right{
+	position: relative;
+	color: whitesmoke;
+	letter-spacing: 30px;
+	font-size: 300%;
+	top: 15%;
+}
+
+#button{
+	width: 250px;
+	display: block;
+	position: relative;
+	top: 50%;
+	margin: 0 auto;
+	letter-spacing: 5px;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 5px;
+	border: 2px solid whitesmoke;
+}
+
+#button:hover{
+	border-color: black;
+}
+
+.bigLeft{
+	width: 75%;
+}
+
+.smallRight{
+	width: 25%;
+}
+
+.bigRight{
+	width: 75%;
+}
+
+.smallLeft{
+	width: 25%;
+}
